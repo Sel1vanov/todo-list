@@ -77,7 +77,31 @@ md-filled-icon-button {
     gap: 15px;
     padding-right: 5px;
 }
+
+
+.card-task .done-badge{
+    opacity: 0;
+    visibility: hidden;
+    color: #2e7d32;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
+
+}
+
+.card-task.is-done{
+    background-color: #e8f5e9;
+    border-color: #a5d6a7;
+    opacity: 0.8;
+}
+
+.card-task.is-done .done-badge {
+    opacity: 1;
+    visibility: visible;
+    
+}
 main{
     display: flex;
     flex-direction: row;
 }
+
